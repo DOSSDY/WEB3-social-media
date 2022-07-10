@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Decentralized Social Media",
   "author": "Dossdy",
-  "homepage": ".",
+  "homepage": "http://.",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.7.0",
     "babel-polyfill": "6.26.0",
@@ -47,5 +47,17 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.2.0"
+  },
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DOSSDY/WEB3-social-media.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DOSSDY/WEB3-social-media/issues"
   }
 }
